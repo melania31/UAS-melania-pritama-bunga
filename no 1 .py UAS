@@ -1,0 +1,16 @@
+data = [["42130094", "melania pritama bunga", "Teknologi Informasi"], ["42130092", "ni luh wina sinta ariesta ", "Teknologi Informasi"],
+        ["42130097", "i putu dika darma brasdika", "Teknologi Informasi"]]
+y = 0
+print("Silahkan Pilih nama mahasiswa berikut : ")
+for i in data:
+    print(f"{y+1}. {data[y][1]}")
+    y = y + 1
+
+user = int(input("Pilihan anda : "))
+
+if user == 1:
+    print(data[0])
+elif user == 2:
+    print(data[1])
+elif user == 3:
+    print(data[2])

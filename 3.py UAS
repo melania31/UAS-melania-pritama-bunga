@@ -1,0 +1,11 @@
+data = []
+
+while True:
+    input = input("masukkan angka: ")
+    if input == "n":
+        break
+    data.append(int(input))
+
+total = sum(data)
+rata = total/len(data)
+print(rata)

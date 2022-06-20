@@ -1,0 +1,9 @@
+Q = 5
+Y = 2 * Q - 2
+for i in range(0, Q):
+    for j in range(0, Y):
+        print(' ', end='')
+    Y -= 2
+    for j in range(0, i + 1):
+        print('* ', end='')
+    print('')
